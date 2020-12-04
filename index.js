@@ -273,7 +273,7 @@ function controlPlayer() {
 
 //Funcion que crea al enemigo y moverlos
 function crearEnemigo() {
-    for (i = 1; i <= 15; i++) {
+    for (i = 1; i <= 10; i++) {
         enemigos.push(new Enemigo(80, 100, 50 + (i * 80), 10, 2, "url(#pattern3)"));
     }
 }
