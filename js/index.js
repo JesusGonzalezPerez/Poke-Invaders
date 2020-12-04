@@ -351,7 +351,7 @@ function ganar() {
             document.body.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/fondoWon.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundPosition = "center";
-            setTimeout(function(){ location.assign("menu.html"); },4000);
+            setTimeout(function(){ location.assign("html/menu.html"); },4000);
             document.getElementById("audioWin").play();
         }
     }
@@ -374,6 +374,6 @@ function perder() {
     document.body.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/fondoLose.gif')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
-    setTimeout(function(){ location.assign("menu.html"); },7000);
+    setTimeout(function(){ location.assign("/html/menu.html"); },7000);
     document.getElementById("audioLose").play();
 }
