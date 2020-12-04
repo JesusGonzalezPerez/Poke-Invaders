@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Invaders</title>
+    <style>
+        *{
+            margin: 0;
+            background-color: rgb(70, 33, 33);
+        }
+        #svg {
+            width: 100%;
+            height: 99.5vh;
+            background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/fondo.gif");
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
+</head>
+
+<body>
+    <script src="../js/index.js"></script>
+
+    <svg id="svg">
+        <pattern id="pattern1" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../img/charizardX.gif" />
+        </pattern>
+        
+        <pattern id="pattern2" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../img/fire1.gif" />
+        </pattern>
+
+        <pattern id="pattern3" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../img/enemigo.gif" />
+        </pattern>
+
+        <pattern id="pattern4" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../img/fire2.gif" />
+        </pattern>    
+    </svg>
+
+    <audio id="audioDisparo">
+        <source type="audio/wav" src="../audio/bola.mp3">
+    </audio>
+
+    <audio id="audioWin">
+        <source type="audio/wav" src="../audio/win.mp3">
+    </audio>
+
+    <audio id="audioLose">
+        <source type="audio/wav" src="../audio/lose.mp3">
+    </audio>
+
+</body>
+
+</html>

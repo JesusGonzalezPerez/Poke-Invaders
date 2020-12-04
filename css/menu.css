@@ -1,0 +1,36 @@
+*{
+    height: 99.6vh;
+    margin: 0;
+    background-color: black;
+}
+
+div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+img{
+    display:block;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+
+div a{
+    height: 10%;
+    width: 50%;
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#4100da;
+    font-size: 15rem;
+    border-radius:1.5em;
+    color:rgb(201, 231, 26);
+    text-align: center;
+    text-decoration: none;
+}
+
+div a:hover{
+    transform: scale(1.2);
+}
